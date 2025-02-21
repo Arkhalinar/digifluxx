@@ -1,0 +1,386 @@
+
+@media only screen and (max-width: 1366px)  {
+	.slide {
+	    height: 450px;
+	}
+	.about {
+    	padding-top: 65px;
+	}
+}
+@media only screen and (max-width: 1200px)  {
+	.row{
+		width: calc(100% - 30px);
+	}
+	.one-time2 .slick-prev {
+    	left: -10px;
+    }
+    .one-time2 .slick-next {
+    	right: -10px;
+	}
+	.img-b img {
+    	width: 90%;
+	}
+	.img-b {
+    	width: 40%;
+	}
+	.top-info {
+    	width: 58%;
+	}
+}
+@media only screen and (max-width: 1100px)  {
+	.work{
+		width: 90%;
+		display: block;
+		margin: 20px auto;
+	}
+	.project .work{
+		width: 400px;
+		margin: 20px auto;
+	}
+	.line2 {
+    	display: none;
+	}
+	.cash{
+		background: #fff; 
+	}
+	.romb {
+		display: none;
+	}
+	.top-left, .top-left-2 {
+    	width: 90%;
+    	padding: 10px;
+    	border-radius: 5px;
+    	display: block;
+    	margin: 15px auto;
+    	float:none;
+	}
+	.top-right, .top-right-2 {
+    	width: 90%;
+    	padding: 10px;
+    	border-radius: 5px;
+    	display: block;
+    	margin: 15px auto;
+    	float:none;
+	}
+	.top-left, .top-left-2{
+		background: #15172e;
+	}
+	.top-left .name-what {
+    	color: #fff;
+	}
+	.top-left .mini-what {
+    	color: #fff;
+	}
+	.top-left-2 .name-what {
+    	color: #fff;
+	}
+	.top-left-2 .mini-what {
+    	color: #fff;
+	}
+	.new-tarif .block-tarif {
+        margin: 75px 20px 75px 20px;
+    }
+    .first-adv {
+    	float: none;
+    	width: 500px;
+    	max-width: 100%;
+    	margin: 0 auto 30px auto;
+	}
+	.second-adv {
+    	float: none;
+    	display: inline-block;
+    	margin: 0;
+	}
+	.third-adv {
+    	float: none;
+    	width: 300px;
+    	display: inline-block;
+    	vertical-align: top;
+	}
+	.advertising{
+		text-align: center;
+	}
+	.left-row, .right-row {
+    	padding: 0 15px;
+    	float: none;
+    	display: inline-block;
+	}
+	.center-block {
+    	float: none;
+    	display: inline-block;
+    	max-width: 100%;
+	}
+	.block-what {
+	    display: inline-block;
+	    text-align: center;
+	    width: 33%;
+	    min-width: 240px;
+	    height: auto;
+	}
+	.advantages{
+		text-align: center;
+	}
+	.imac{
+		display: none;
+	}
+	.block-what-center {
+	    width: 555px;
+	    max-width: 100%;
+	    height: auto;
+	    min-height: 140px;
+	    margin-bottom: 30px;
+	}
+	.center-block {
+    	 margin: 0px; 
+	}
+	.img-first {
+    	padding-top: 10px;
+	}
+	.center-block .text-what {
+    	width: auto;
+    	padding-top: 15px; 
+	}
+
+}
+@media only screen and (max-width: 992px)  {
+	.menu{
+		display: none;
+	}
+	.main-block{
+		display: block!important;
+	}
+	.menu-btn{
+		display: inline-block;
+		font-size: 36px;
+		float: right;
+	}
+	.menu{
+		position: absolute;
+		top:100px;
+		left:0;
+		width: 100%;
+		height: 100vh;
+		background:#fff;
+		margin:0;
+		overflow: auto; 
+		z-index: 99999;
+	}
+	.menu ul {
+    	margin-left: 0;
+	}
+	.menu ul li{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		border-bottom:1px solid rgba(255,255,255,0.5);
+	}
+	.menu ul li a{
+		padding:0;
+		width: 100%;
+	}
+	.social {
+    	float: none;
+    	margin: 15px auto 0 auto;
+    	text-align: center;
+	}
+	.left, .right{
+    	width: 90%;
+    	float: none;
+    	margin: 40px auto;
+	}
+	.rek-block img{
+    	max-width: 90%;
+    	object-fit:cover;
+	}
+	.block-how {
+    	display: block;
+    	width: 80%;
+    	margin: 40px auto;
+	}
+	.mark-left .img-mark {
+    	width: 200px;
+	}
+	.mark-right .img-mark {
+    	width: 200px;
+	}
+	.mark-left .text-standart {
+    	width: calc(100% - 205px);
+	}
+	.mark-right .text-standart {
+    	width: calc(100% - 205px);
+	}
+	.block-tarif {
+	    margin: 75px 45px 75px 45px;
+	}
+	.top-info h3 {
+    	font-size: 18px;
+	}
+	.top-info p{
+		font-size: 14px;
+	}
+	.block-inlie {
+    	width: 95px;
+	}
+	.step{
+		background-size:70%;
+	}
+	.slick-prev {
+    	left: -5px;
+    	background: red;
+    	color: #fff;
+	}
+}
+@media only screen and (max-width: 768px)  {
+	.img-b {
+    	display: none;
+	}
+	.top-info {
+    	width: 85%;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.block-inlie {
+    	width: 32%;
+    	text-align: center;
+	}
+	.slick-slide img {
+    	margin: 0 auto;
+	}
+	.top-info .btn{
+		margin: 20px auto;
+	}
+	.new-green-line{
+		display: none;
+	}
+	.img-first img {
+    	margin-left: 0px;
+	}
+	.img-first {
+    	width: 60px;
+	}
+	.step1{
+		display: block;
+	    margin-top: 115px;
+	    padding: 0 5px;
+	}
+	.step3{
+		margin-top: 20px;
+		display: block;
+		width: 250px;
+	}
+	.social a {
+	    display: inline-block;
+	    margin: 20px 10px 0px 10px;
+	}
+	.work h3 {
+    	color: #3e7ae9;
+    	margin: 20px 0px 20px 0px;
+	}
+	.project .work {
+    	width: auto;
+    	margin: 20px auto;
+	}
+	.businessman {
+    	display: none;
+	}
+	.businessman2 {
+    	display: none;
+	}
+}
+@media only screen and (max-width: 520px)  {
+	.block-stat {
+	    display: inline-block;
+	    vertical-align: top;
+	    width: 24%;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	}
+	.mark-left .img-mark {
+    	display: none;
+	}
+	.mark-right .img-mark {
+    	display: none;
+	}
+	.mark-left .text-standart {
+    	width: 100%;
+	}
+	.mark-right .text-standart {
+    	width: 100%;
+	}
+	.text-standart tr th {
+    	font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 520px)  {
+	.lang {
+    	margin-right: 20px;
+	}
+	.slide h1 {
+    	padding-top: 10px;
+    	font-weight: 400;
+    	font-size: 30px;
+	}
+	.slide h2 {
+    	font-size: 20px;
+	}
+	.contact .area textarea {
+    	width: 90%;
+    	margin: 0 auto;
+    	height: 100px;
+	}
+	#clockdiv {	
+    	font-size: 24px;
+	}
+	.block-stat {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+	.top-info p {
+    	margin: 0 0 10px 0;
+	}
+	.top-info h3 {
+    	font-size: 16px;
+    	margin: 0;
+	}
+	.block-inlie img {
+    	width: 50px;
+	}
+	.one-time2 .slick-dots li button {
+	    display: none;
+	}
+	.step2 {
+	    width: auto; 
+	    margin-left: 69px;
+	}
+	.step2, .step3, .step1{
+		font-size: 16px;
+		padding: 10px 0;
+	}
+	.login {
+	    max-width: 100%;
+	    margin: 0 auto;
+	    border-right:none;
+	}
+}
+@media only screen and (max-width: 380px)  {
+	.btn {
+	    padding: 5px 10px;
+	    font-size: 22px;
+	    width: 230px;
+	}
+	.block-btn {
+    	margin-top: 50px;
+	}
+	.area input {
+    	width: 90%;
+    	margin:0 auto;
+	}
+	.g-recaptcha{
+        transform:scale(0.70)!important;
+    }
+    .text-standart tr th {
+    	font-size: 10px;
+	}
+}

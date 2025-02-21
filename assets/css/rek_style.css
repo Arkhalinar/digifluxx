@@ -1,0 +1,11 @@
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: green;
+}
+.content-wrapper {
+    min-height: 100%;
+    background-color: #fff;
+    z-index: 800;
+}
+.widget-user .widget-user-header {
+    height: 150px!important;
+}

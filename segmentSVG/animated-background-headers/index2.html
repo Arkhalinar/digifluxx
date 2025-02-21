@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Анимированный фон для шапки сайта на JS | Демонстрация для сайта RUDEBOX</title>
+        <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+        <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+        <script type="text/javascript" src="http://www.rudebox.org.ua/js/jquery.js"></script>
+        <link rel="shortcut icon" href="http://www.rudebox.org.ua/wp-content/themes/mystique/favicon.ico" />
+        <link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script' rel='stylesheet' type='text/css'>
+        <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+	<body>
+	 <!-- Используется только для демонстрации -->
+<div id="controls">
+<div align=right><a class="close" title="Закрыть" onclick="document.getElementById('controls').style.display='none';">X</a></div>
+   <!-- Яндекс.Директ -->
+<div id="yandex_ad"></div>
+<script type="text/javascript">
+(function(w, d, n, s, t) {
+    w[n] = w[n] || [];
+    w[n].push(function() {
+        Ya.Direct.insertInto(84098, "yandex_ad", {
+            ad_format: "direct",
+            type: "240x400",
+            border_type: "block",
+            border_radius: true,
+            site_bg_color: "FFFFFF",
+            header_bg_color: "FEEAC7",
+            bg_color: "FFF9F0",
+            border_color: "FBE5C0",
+            title_color: "0000CC",
+            url_color: "006600",
+            text_color: "000000",
+            hover_color: "0066FF",
+            favicon: true,
+            no_sitelinks: false
+        });
+    });
+    t = d.getElementsByTagName("script")[0];
+    s = d.createElement("script");
+    s.src = "//an.yandex.ru/system/context.js";
+    s.type = "text/javascript";
+    s.async = true;
+    t.parentNode.insertBefore(s, t);
+})(window, document, "yandex_context_callbacks");
+</script>
+</div>
+<table cellpadding="0" cellspacing="0" id="demo_navi">
+  <tr>
+    <td width="220"><a href="http://www.rudebox.org.ua/ " rel="nofollow" ><div class="logo"><b><font color=#c3e425>RUDE</font>BOX</b></div></a></td><td width="45"><div class="demo">DEMO</div></td>
+	<td style="text-overflow: ellipsis;"><a href="http://www.rudebox.org.ua/animated-background-headers" class="go-bottom" rel="nofollow" ><div class="name">Анимированный фон для шапки сайта на JS</div></a></td>
+  </tr>
+</table>
+<!-- Конец кода используемого для демонстрации -->
+		<div class="container demo-2">
+			<div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="main-title">desbox</span></h1>
+                </div>
+           
+                <div class="codrops-header">
+                    <h1>Анимированный фон шапки сайта<span>Данные примеры были реализованы с помощью Canvas и JavaScript</span></h1>
+                    <nav class="codrops-demos">
+                        <a href="index.html">Демо 1</a>
+                        <a class="current-demo" href="index2.html">Демо 2</a>
+                        <a href="index3.html">Демо 3</a>
+                    </nav>
+                </div>
+            </div>
+          
+        <script src="js/rAF.js"></script>
+        <script src="js/demo-2.js"></script>
+	</body>
+</html>

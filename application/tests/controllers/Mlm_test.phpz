@@ -1,0 +1,42 @@
+<?php
+
+class Mlm_test extends TestCase
+{
+    public function setUp()
+    {
+        $this->obj = $this->newLibrary('Mlm');
+    }
+
+    public function test_find_place()
+    {
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(3, $latest);
+        $this->assertEquals(7, $latest);
+        $this->assertEquals(15, $res);
+
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(5, $latest);
+        $this->assertEquals(11, $latest);
+        $this->assertEquals(22, $res);
+
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(4, $latest);
+        $this->assertEquals(16, $latest);
+        $this->assertEquals(32, $res);
+
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(1, $latest);
+        $this->assertEquals(7, $latest);
+        $this->assertEquals(15, $res);
+
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(2, $latest);
+        $this->assertEquals(11, $latest);
+        $this->assertEquals(22, $res);
+
+        $latest = 0;
+        $res = $this->obj->findLatestPlace(6, $latest);
+        $this->assertEquals(12, $latest);
+        $this->assertEquals(24, $res);
+    }
+}

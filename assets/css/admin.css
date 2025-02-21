@@ -1,0 +1,363 @@
+.widget_summary {
+    display: block;
+    overflow: auto;
+}
+.widget_summary .w_right {
+    float: right;
+}
+.widget_summary .w_20 {
+    width: 40%;
+}
+.nav>li>a {
+    padding: 2px 0px 2px 15px;
+}
+.dropdown-menu {
+    box-shadow: none;
+    display: none;
+    float: left;
+    font-size: 12px;
+    list-style: none;
+    position: static;
+    text-shadow: none;
+    width: 100%;
+    z-index: 9998;
+    background: transparent; 
+    border: 0px solid #D9DEE4; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.side-menu hr{
+	margin: 8px 0;
+}
+.dropdown-menu>li>a {
+    color: #fff;
+    padding: 3px 5px;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: none;
+}
+.nav.side-menu>li {
+    overflow: auto;
+}
+.widget_summary{
+	padding: 3px 0;
+}
+.block-stat-style{
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #fff;
+	border: 1px solid #ccc; 
+}
+.orang-block{
+	background: #71d27e;
+	padding: 2px 5px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+}
+.blue-tarif-block{
+	background: #7cb2fd;
+	padding: 2px 5px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+}
+.ser-block{
+	background: #852578;
+	padding: 2px 5px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626!important;
+}
+.nav.side-menu>li>a {
+    margin: 3px 0;
+}
+.stat-block-big{
+	margin: 15px;
+	text-align: center;
+	font-size: 16px;
+	/*background: #f8ecea; */
+}
+.number-stat-block-big{
+	font-weight: bold;
+	font-size: 38px;
+	color: #852578;
+}
+.dop-info{
+	font-size: 13px;
+}
+.stat-block-big p{
+	border-bottom:1px solid #ccc;
+}
+.ser{
+	color: #852578;
+	font-weight: 700;
+}
+.admin-row{
+	margin-bottom: 10px;
+}
+.admin-row input{
+	border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 4px;
+}
+.admin-row select{
+	border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.tarif-style{
+	margin: 0 auto;
+    width: 250px;
+}
+.tarif-style h3{
+	text-align: center;
+	margin: 5px;
+	color: #852578;
+	font-weight: bold;
+}
+.style-btn{
+	color: #fff;
+	background: #343c41;
+	border-radius: 3px;
+	padding: 5px 10px; 
+	border: 2px solid #000!important;
+	transition: 0.3s;
+}
+.style-btn:hover{
+	border: 2px solid #343c41!important;
+	transition: 0.3s;
+}
+.one-tarif-style{
+	width: 250px;
+}
+.one-tarif-style input{
+	width: 60px;
+	padding: 3px 5px;
+}
+.one-tarif-style .style-btn{
+	width: 150px!important;
+}
+.clock-block{
+	background: #2bb8fa;
+	color: #fff;
+	border-radius: 5px;
+	padding: 3px 0;
+}
+.clock-block input{
+	color: #343c41!important;
+}
+.clock-block i{
+	font-size: 20px;
+    vertical-align: middle;
+    padding-bottom:2px;
+    padding-right:5px;
+}
+.one-big{
+	width: 350px;
+}
+.one-big .clock-block{
+	padding:3px!important;
+	margin: 5px 0!important;
+}
+.one-big .orang-block{
+	font-size: 13px;
+}
+.one-big .orang-block input{
+	color: #343c41!important;
+}
+.one-big .ser-block{
+	font-size: 13px;
+	margin-top:5px;
+}
+.one-big .ser-block input{
+	color: #343c41!important;
+}
+.middle{
+	vertical-align: middle!important;
+}
+table .middle i{
+	font-size: 24px;
+}
+.img-lang{
+	height: 16px;
+	margin-right:3px;
+	border: 1px solid #ccc;
+}
+table .middle form{
+	display: inline-block;
+}
+.btn-table-user i{
+	cursor:pointer;
+	margin: 0px 10px;
+}
+table .middle form::after{
+	display: none;
+}
+.fa-eye{
+	color: #006cfd;
+}
+.fa-user-lock{
+	color: #f48625;
+}
+.fa-edit{
+	color: #852578;
+}
+.snoska{
+	padding-bottom:5px;
+}
+.search-select .input-group{
+	display: inline-block;
+	vertical-align:top;
+	width: 45%;
+}
+.search-select .input-group select{
+	border-radius: 15px!important;
+}
+#for_inputs .form-control{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+#for_inputs select{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+.ot-do{
+	display: inline!important;
+    vertical-align: middle!important; 
+    width: 60%;
+    float: none!important;
+    border-radius: 30px!important;
+}
+.border-30{
+	border-radius: 30px!important;
+}
+.orang{
+	color: #f48625;
+}
+.font20{
+	font-size: 24px;
+}
+.btn-table-user i{
+	cursor: pointer;
+}
+.btn-table-user textarea{
+	height: 30px;
+	width: 100%;
+	padding: 2px;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.btn-table-user{
+	min-width: 150px;
+}
+.refuse{
+	border: none;
+	background: none;
+	color: #fff;
+	cursor: pointer; 
+	padding: 0px 4px!important;
+	border-radius: 3px;
+	background: #f48625; 
+}
+.refuse:hover{
+	color: #000;
+}
+.btn-table-user p{
+	text-align: center;
+}
+.btn-table-user p form{
+	vertical-align: top;
+}
+.radio-btn{
+	vertical-align: top;
+	margin-top: 2px!important;
+	display: inline-block;
+	margin-right:3px!important;
+	cursor:pointer;
+}
+.padding-top5{
+	padding-top:5px;
+	margin:0;
+}
+.jambo_table td{
+	max-width: 380px!important;
+	word-wrap: break-word;
+}
+.padding-top10{
+	padding-top:10px;
+}
+.black{
+	color: black;
+}
+.btn-table-user{
+	min-width: 165px!important;
+}
+.half{
+	width: 250px;
+	text-align: right;
+	display: inline-block;
+}
+#link_block .style-btn{
+	margin-right: 5px;
+    margin-left: 23px;
+}
+.float-r{
+	float:right;
+}
+.style-btn .green{
+	color: #29f1c3!important;
+}
+.block-interval{
+	width: 230px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+}
+.block-interval input{
+	padding: 3px!important;
+	border: 1px solid #ccc;
+	border-radius: 4px!important;
+}
+.save-btn{
+	background: #498af2!important;
+}
+.del-btn{
+	border: 2px solid #7f261c!important;
+	background: #be392a!important; 
+}
+.view-mess .block-interval{
+	width: 310px!important;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.new-tarif .block-stat-style{
+	width: 400px;
+	margin:0 auto;
+}
+.new-tarif .block-stat-style .half{
+	width: 150px;
+}
+.info-tarif-select .search-select .input-group {
+     width: 200px; 
+}
+.block-left-select-tarif{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-align: left;
+}
+.block-left-select-tarif td{
+	font-size: 16px;
+	font-weight: bold;
+}
